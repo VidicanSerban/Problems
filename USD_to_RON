@@ -1,0 +1,15 @@
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+//In this problem we will exchange American Dolars into Romanian RON
+int main()
+{
+    int dollar;
+    cout<<"Insert value in dollars: ";
+    //printf("Insert value in dollars: ");
+    cin>>dollar;
+    //scanf("%d",&dolari)
+    cout<<"Value in RON is: : "<<(float)dollar*4.57;
+    //printf("Value in RON is: %.2f",(float)dollar*4.57);
+    return 0;
+}
